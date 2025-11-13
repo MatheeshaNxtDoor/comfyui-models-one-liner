@@ -2,11 +2,11 @@ import os
 from urllib.parse import urlparse as urlParse
 
 
-LORA_PATH = "/root/working/ComfyUI/models/lora"
-CLIP_PATH = "/root/working/ComfyUI/models/clip"
-VAE_PATH = "/root/working/ComfyUI/models/vae"
-UNET_PATH = "/root/working/ComfyUI/models/unet"
-SD_PATH = "/root/working/ComfyUI/models/sd"
+LORA_PATH = "/kaggle/working/ComfyUI/models/lora"
+CLIP_PATH = "/kaggle/working/ComfyUI/models/clip"
+VAE_PATH = "/kaggle/working/ComfyUI/models/vae"
+UNET_PATH = "/kaggle/working/ComfyUI/models/unet"
+SD_PATH = "/kaggle/working/ComfyUI/models/sd"
 
 
 def get_model_paths():
