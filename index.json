@@ -21,12 +21,12 @@
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Instara/instagirl-wan-2.2/resolve/main/Instagirlv2.5-LOW.safetensors",
+        "model": "https://huggingface.co/Instara/instagirl-wan-2.2/blob/main/Instagirlv2.3_high.safetensors",
         "destination": "lora"
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Instara/instagirl-wan-2.2/resolve/main/Instagirlv2.3_high.safetensors",
+        "model": "https://huggingface.co/Instara/instagirl-wan-2.2/blob/main/Insatgirlv2.3_low.safetensors",
         "destination": "lora"
     },
     {
