@@ -2,7 +2,7 @@ import os
 from urllib.parse import urlparse as urlParse
 
 
-LORA_PATH = "/kaggle/working/ComfyUI/models/lora"
+LORA_PATH = "/kaggle/working/ComfyUI/models/loras"
 CLIP_PATH = "/kaggle/working/ComfyUI/models/clip"
 VAE_PATH = "/kaggle/working/ComfyUI/models/vae"
 UNET_PATH = "/kaggle/working/ComfyUI/models/unet"
