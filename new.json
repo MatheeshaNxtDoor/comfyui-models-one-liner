@@ -15,8 +15,8 @@
         "destination": "clip"
     },
     {
-        "platform": "civitai",
-        "model": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/7053464/1girlQWENV3.P15x.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%221GIRL_QWEN_V3.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251201/us-east-1/s3/aws4_request&X-Amz-Date=20251201T055327Z&X-Amz-SignedHeaders=host&X-Amz-Signature=02c4d523c31dbddf3897041e99375ad36166f286684b7d4c80bc780341f06bd7",
+        "platform": "huggingface",
+        "model": "https://huggingface.co/Instara/1girl-qwen-image/resolve/main/1GIRL_QWEN_V3.safetensors",
         "destination": "lora"
     }
 ]
