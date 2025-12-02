@@ -38,6 +38,11 @@
         "platform": "huggingface",
         "model": "https://huggingface.co/Danrisi/Lenovo_Qwen/resolve/main/lenovo.safetensors",
         "destination": "lora"
+    },
+    {
+        "platform": "huggingface",
+        "model": "https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/low_noise_model.safetensors",
+        "destination": "lora"
     }
 
 ]
