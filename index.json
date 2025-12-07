@@ -43,6 +43,21 @@
         "platform": "huggingface",
         "model": "https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/low_noise_model.safetensors",
         "destination": "lora"
+    },
+    {
+        "platform": "huggingface",
+        "model": "https://huggingface.co/TheRaf7/instagirl-v2/resolve/main/Instagirlv2.0_hinoise.safetensors",
+        "destination": "lora"
+    },
+    {
+        "platform": "huggingface",
+        "model": "https://huggingface.co/TheRaf7/instagirl-v2/resolve/main/Instagirlv2.0_lownoise.safetensors",
+        "destination": "lora"
+    },
+    {
+        "platform": "huggingface",
+        "model": "https://huggingface.co/TheRaf7/ultra-real-wan2.2/resolve/main/Lenovo(1).safetensors",
+        "destination": "lora"
     }
 
 ]
