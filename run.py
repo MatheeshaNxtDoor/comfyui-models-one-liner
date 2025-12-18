@@ -37,10 +37,13 @@ def run_installer():
             model_type = model["destination"]
             model_url = model["model"]
             model_platform = model.get("platform")
+            download = model.get("download")
             file_name = get_file_name(model_url)
             model_path = os.path.join(get_model_paths()[model_type], file_name)
 
             if not os.path.exists(model_path):
+                if download == "false":
+                    continue
                 if model_platform == "huggingface":
                     # Construct the wget command and run it
                     wget_command = "wget --quiet --show-progress"
