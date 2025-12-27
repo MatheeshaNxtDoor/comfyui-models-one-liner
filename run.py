@@ -7,6 +7,7 @@ CLIP_PATH = "/root/working/ComfyUI/models/clip"
 VAE_PATH = "/root/working/ComfyUI/models/vae"
 UNET_PATH = "/root/working/ComfyUI/models/unet"
 SD_PATH = "/root/working/ComfyUI/models/sd"
+CHECKPOINTS_PATH = "/root/working/ComfyUI/models/checkpoints"
 
 
 def get_model_paths():
@@ -16,6 +17,7 @@ def get_model_paths():
         "vae": VAE_PATH,
         "unet": UNET_PATH,
         "sd": SD_PATH,
+        "checkpoints": CHECKPOINTS_PATH,
     }
 
 def get_hf_token():
